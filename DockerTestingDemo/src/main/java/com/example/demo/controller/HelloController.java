@@ -15,4 +15,8 @@ public class HelloController {
     public String hello() {
         return helloService.sayHello();
     }
+	@GetMapping("/cicd-test")
+    public String cicd() {
+        return helloService.sayCicd();
+    }
 }

@@ -8,4 +8,9 @@ public class HelloService {
 	public String sayHello() {
         return "Hello from Spring Boot Service!";
     }
+
+	public String sayCicd() {
+		// TODO Auto-generated method stub
+		return "Hello CI/CD Auto Deploy is Working! ";
+	}
 }
